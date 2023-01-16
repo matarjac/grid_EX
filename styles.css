@@ -1,0 +1,37 @@
+* {
+  text-align: center;
+}
+.wrapper {
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 10% 15% 15% 10%;
+}
+
+.items {
+  background-color: beige;
+}
+
+.header {
+  grid-column: 1 / span 5;
+  background-color: rgb(163, 211, 92);
+}
+
+.sidebar {
+  grid-area: 2/ 1/ 4/ 2;
+  background-color: rgb(53, 53, 206);
+}
+
+.main {
+  grid-column: 2 / span 4;
+  background-color: brown;
+}
+
+.box {
+  background-color: bisque;
+}
+
+.footer {
+  grid-column: 1 / span 5;
+  background-color: rgb(163, 211, 92);
+}
